@@ -179,7 +179,7 @@ def render_sidebar():
         st.markdown("### 👤 Author")
         st.markdown("""
         **Waqas Shami**
-        Head of Data Platform
+        Data Platform Owner
         [LinkedIn](https://linkedin.com/in/waqas-shami) | [Website](https://waqasshami.com)
         """)
 
