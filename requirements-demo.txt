@@ -1,0 +1,18 @@
+# Minimal requirements for running the Streamlit demo
+# Use this for quick setup without full LLM dependencies
+
+# Web Framework
+streamlit>=1.31.0
+
+# SQL Parsing (core functionality)
+sqlparse>=0.4.4
+
+# Data Processing
+pandas>=2.2.0
+pydantic>=2.6.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Note: Full requirements.txt includes LLM dependencies
+# for live mode (OpenAI, Anthropic, LangChain)

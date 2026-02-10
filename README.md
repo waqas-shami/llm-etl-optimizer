@@ -4,7 +4,38 @@ An intelligent system that leverages Large Language Models to analyze, optimize,
 
 ## Live Demo
 
-[Try the Interactive Playground](https://your-demo-url.com) - Input messy SQL and get optimized DBT models with explanations.
+### Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/llm-etl-optimizer.git
+cd llm-etl-optimizer
+
+# Install minimal dependencies (demo mode)
+pip install -r requirements-demo.txt
+
+# Test that everything works
+python test_demo.py
+
+# Launch the demo
+python run_demo.py
+# Or: streamlit run app/streamlit_app.py
+```
+
+Open http://localhost:8501 in your browser.
+
+### Demo Features
+
+- **Demo Mode**: Works without API keys using pre-computed responses
+- **Live Mode**: Provide your OpenAI API key for real LLM responses
+- **Sample Queries**: 5 pre-built queries demonstrating different patterns
+- **Quality Scoring**: Real-time code quality assessment
+- **Download**: Export generated DBT models and YAML schemas
+
+### Try Online
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://llm-etl-optimizer.streamlit.app)
+
+[Interactive Demo](https://llm-etl-optimizer.streamlit.app) - Input messy SQL and get optimized DBT models with explanations.
 
 ## Problem Statement
 
@@ -162,5 +193,6 @@ MIT License - See LICENSE file for details.
 ## Author
 
 **Waqas Shami** - Head of Data Platform | Enterprise AI/ML Solutions
-- [LinkedIn](https://linkedin.com/in/yourprofile)
+- [LinkedIn](https://linkedin.com/in/waqas-shami)
 - [Website](https://waqasshami.com)
+- [GitHub](https://github.com/waqas-shami)
